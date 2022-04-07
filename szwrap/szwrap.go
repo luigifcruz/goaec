@@ -28,9 +28,6 @@ typedef struct { char *p; intgo n; } _gostring_;
 typedef struct { void* array; intgo len; intgo cap; } _goslice_;
 
 
-
-#cgo LDFLAGS: -l:libsz.a -l:libaec.a
-
 typedef long long swig_type_1;
 typedef long long swig_type_2;
 extern void _wrap_Swig_free_szwrap_f010b74e9bb20381(uintptr_t arg1);
